@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serial Monitor</title>
+</head>
+<body>
+    <h1>Serial Data Monitor</h1>
+    <div id="serial-data"></div>
+
+    <script>
+        async function fetchSerialData() {
+            try {
+                const response = await fetch('http://127.0.0.1:3000/seno');
+                const data = await response.json();
+                console.log('Datos de la Onda Sinusoidal:', data.seno);
+                
+                // Optional: Display data on the page
+                const serialDataDiv = document.getElementById('serial-data');
+                serialDataDiv.innerText = `Datos de la Onda Sinusoidal: ${data.seno}`;
+            } catch (error) {
+                console.error('Error fetching serial data:', error);
+            }
+        }
+
+        // Fetch data every second
+        setInterval(fetchSerialData, 50);
+    </script>
+</body>
+</html>

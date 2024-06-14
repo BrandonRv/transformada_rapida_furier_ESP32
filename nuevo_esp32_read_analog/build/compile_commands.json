@@ -1,0 +1,39 @@
+[
+ {
+  "directory": "/Users/brandonrv/Desktop/Transformada rapida de Furier Proyecto ESP32/nuevo_esp32_read_analog",
+  "arguments": [
+   "/Users/brandonrv/Library/Arduino15/packages/esp32/tools/esp-x32/2302/bin/xtensa-esp32-elf-g++",
+   "-MMD",
+   "-c",
+   "@/Users/brandonrv/Library/Arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.1-442a798083/esp32/flags/cpp_flags",
+   "-w",
+   "-Os",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ESP32_DEV",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ESP32_DEV\"",
+   "-DARDUINO_VARIANT=\"doitESP32devkitV1\"",
+   "-DARDUINO_PARTITION_default",
+   "-DARDUINO_HOST_OS=\"macosx\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:esp32doit-devkit-v1:FlashFreq=80,UploadSpeed=115200,DebugLevel=none,EraseFlash=none\"",
+   "-DESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@/Users/brandonrv/Library/Arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.1-442a798083/esp32/flags/defines",
+   "-I/Users/brandonrv/Desktop/Transformada rapida de Furier Proyecto ESP32/nuevo_esp32_read_analog",
+   "-iprefix",
+   "/Users/brandonrv/Library/Arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.1-442a798083/esp32/include/",
+   "@/Users/brandonrv/Library/Arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.1-442a798083/esp32/flags/includes",
+   "-I/Users/brandonrv/Library/Arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.1-442a798083/esp32/dio_qspi/include",
+   "-I/Users/brandonrv/Library/Arduino15/packages/esp32/hardware/esp32/3.0.1/cores/esp32",
+   "-I/Users/brandonrv/Library/Arduino15/packages/esp32/hardware/esp32/3.0.1/variants/doitESP32devkitV1",
+   "@/Users/brandonrv/Desktop/Transformada rapida de Furier Proyecto ESP32/nuevo_esp32_read_analog/build/build_opt.h",
+   "@/Users/brandonrv/Desktop/Transformada rapida de Furier Proyecto ESP32/nuevo_esp32_read_analog/build/file_opts",
+   "/Users/brandonrv/Desktop/Transformada rapida de Furier Proyecto ESP32/nuevo_esp32_read_analog/build/sketch/nuevo_esp32_read_analog.ino.cpp",
+   "-o",
+   "/Users/brandonrv/Desktop/Transformada rapida de Furier Proyecto ESP32/nuevo_esp32_read_analog/build/sketch/nuevo_esp32_read_analog.ino.cpp.o"
+  ],
+  "file": "/Users/brandonrv/Desktop/Transformada rapida de Furier Proyecto ESP32/nuevo_esp32_read_analog/build/sketch/nuevo_esp32_read_analog.ino.cpp"
+ }
+]

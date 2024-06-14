@@ -1,0 +1,9 @@
+#line 1 "/Users/brandonrv/Desktop/Transformada rapida de Furier Proyecto ESP32/nuevo_esp32_read_analog/.vscode/arduino.json"
+{
+    "sketch": "nuevo_esp32_read_analog.ino",
+    "output": "build",
+    "configuration": "FlashFreq=80,UploadSpeed=115200,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:esp32doit-devkit-v1",
+    "port": "/dev/tty.SLAB_USBtoUART3",
+    "programmer": "esptool"
+}

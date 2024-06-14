@@ -1,0 +1,11 @@
+{
+  "additionalFiles": "../../..,../../..",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "-Os",
+  "customBuildProperties": "",
+  "fqbn": "esp32:esp32:esp32doit-devkit-v1:FlashFreq=80,UploadSpeed=115200,DebugLevel=none,EraseFlash=none",
+  "hardwareFolders": "/Users/brandonrv/Library/Arduino15/packages",
+  "otherLibrariesFolders": "/Users/brandonrv/Documents/Arduino/libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "/Users/brandonrv/Desktop/Transformada rapida de Furier Proyecto ESP32/nuevo_esp32_read_analog"
+}

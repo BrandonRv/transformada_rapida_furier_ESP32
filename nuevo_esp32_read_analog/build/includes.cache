@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/brandonrv/Library/Arduino15/packages/esp32/hardware/esp32/3.0.1/cores/esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/brandonrv/Library/Arduino15/packages/esp32/hardware/esp32/3.0.1/variants/doitESP32devkitV1"
+  },
+  {
+    "Sourcefile": "/Users/brandonrv/Desktop/Transformada rapida de Furier Proyecto ESP32/nuevo_esp32_read_analog/build/sketch/nuevo_esp32_read_analog.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
